@@ -94,6 +94,7 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
+    padding: 0 10px;
 }
 
 .boutou-text1 {
@@ -122,10 +123,11 @@ body {
     margin: 0 auto;
     padding: 0 10px;
     margin-bottom: 105px;
+    align-items: center;
 }
 
 .ABOUT_US_wrap2 {
-    margin-left: 7.92%;
+    margin-left: 9%;
     width: 41%;
 }
 
@@ -155,6 +157,7 @@ body {
 .MENU {
     max-width: 1000px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .MENU_word {
@@ -167,7 +170,6 @@ body {
     justify-content: space-between;
     margin-top: 48px;
     margin-bottom: 93px;
-    padding: 0 10px;
 }
 
 .box {
@@ -182,6 +184,7 @@ body {
     font-size: 38px;
     color: #d30202;
     margin-top: -10px;
+    margin-left: 3.35%;
 }
 
 .box_item3 {
@@ -207,6 +210,7 @@ body {
 .EVENT{
     max-width: 1000px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .EVENT_word{
@@ -215,25 +219,25 @@ body {
 }
 
 .EVENT_wrap{
-    height: 200px;
+    padding: 30px 15.3%;
     border: #4f260b solid 3px;
     background-color: #fff;
-    margin: 40px 10px 76px;
+    margin-top: 40px;
+    margin-bottom: 76px;
 }
 
 .day{
     display: inline-block;
+    padding-right: 4.6%;
 }
 
 .EVENT_box{
     font-size: 23px;
-    margin-top: 35px;
 }
 
 .EVENT_item1{
     text-decoration: underline;
     line-height: 1.95;
-    margin-left: 15.6%;
     text-decoration-color: #4f260b
 }
 
@@ -262,8 +266,11 @@ body {
 
 .DESIGN_CAFE{
     max-width: 1000px;
-    margin: 80px auto;
+    padding-top: 80px;
+    margin: 0 auto;
     display: flex;
+    background-color: #fff;
+    padding: 0 10px;
 }
 
 .DESIGN_CAFE_item{
@@ -273,10 +280,18 @@ body {
     line-height: 1.95;
 }
 
-.©{
+/*フッダー*/
+.copyright {
     text-align: center;
+    padding: 75px 0;
 }
 
+.background-white{
+    width: 100%;
+    background-color: #fff;
+}
+
+/*トップボタン*/
 .TOP{
     width: 125px;
     position: fixed;
